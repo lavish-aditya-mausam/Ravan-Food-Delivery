@@ -1,0 +1,70 @@
+*{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    
+}
+
+body{
+    background-image: url(./img/menu-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position-y: 0%;   */
+}
+.containter{
+    position: absolute;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+     margin-left: 40%;
+    margin-right: 50%; 
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.containter h4{
+    font-size: 30px;
+    margin: 15px;
+    color: red;
+}
+.containter h4 b{
+    color: rgb(34, 221, 40);
+}
+.containter input{
+    width: 90%;
+    margin: 10px;
+    height: 35px;
+    border-radius: 8px;
+    /* background-color: bisque; */
+    border: none;
+}
+.btn2:hover{
+    background-color: #35a5d5;
+    color: white;
+    cursor: pointer;
+}
+.btn2{
+    margin: 15px;
+    height: 40px;
+    padding: 5px;
+    width: 65%;
+    border: none;
+    background-color:#74d5ff ;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.btn3{
+    margin: 15px;
+    height: 40px;
+    padding: 5px;
+    width: 25%;
+    border: none;
+    background-color: #74d5ff ;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.btn3:hover{
+    background-color: #35a5d5;
+    color: white;
+    cursor: pointer;
+}

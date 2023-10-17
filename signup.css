@@ -1,0 +1,63 @@
+* {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #f03c3c;
+}
+
+body {
+    background-image: url(./img/biryani-1141444_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/*           input      0*/
+.container {
+    height: 100%;
+    padding: 25px;
+    border-radius: 70px;
+    margin: 15vh auto;
+    width: 50%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white / 0.5;
+    backdrop-filter: blur(2px);
+}
+.container h3{
+    font-size: 30px;
+    color: rgb(109, 17, 17);
+
+}
+
+.container input {
+    width: 80%;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(218, 234, 248);
+    caret-color: rgb(80, 80, 214);
+}
+
+.container input::placeholder {
+    color: #f03c3c;
+}
+
+/*      button     */
+.btn1 {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btn1:hover {
+    color: white;
+    background-color: rgb(28, 28, 171);
+    cursor: pointer;
+}
